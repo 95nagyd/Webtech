@@ -1,0 +1,51 @@
+.contentImage {
+    width: 200px;
+}
+
+body {
+    background-color: #4ee151;
+}
+
+#everything{
+    margin: auto;
+    width: 100%;
+}
+a:link{
+    color: crimson;
+}
+a:visited{
+    color: crimson;
+}
+#banner{
+    height: 100px;
+    background: royalblue;
+    font-size: 80px;
+    color: darkgreen;
+}
+#menuBar{
+    font-size: 17px;
+    float: right;
+    background: orange;
+    margin-top: 15px;
+}
+#menuBar .menuButton{
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: auto;
+    margin: 15px;
+}
+#menuBar .menuButton:HOVER{
+    background: black;
+    color: white;
+}
+table{
+    width: 100%;
+    border: 2px solid black;
+}
+.innerTable{
+    width: auto;
+    border: 2px solid black;
+}
